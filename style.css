@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Lucida Sans Unicode', sans-serif;
+}
+
+.link-main, .link-nav {
+    text-decoration: none;
+}
+.link-nav:hover {
+    color: #FDEB2B;
+    transition: color 2s;
+}
+.link-main {
+    color: #000000;
+}
+.link-nav, .footer-text {
+    color: #FFFFFF;
+}
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    height: 6em;
+}
+.left-side {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px 10px 5px 20px;
+}
+.right-side {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+.social-media {
+    height: 2em;
+}
+.logo {
+    height: 5em;
+}
+.menu {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    background-color: #6F0CBB;
+    height: 3em;
+}
+/*main*/
+.content {
+    display: flex;
+    margin: 70px;
+}
+.description {
+    margin-right: 150px;
+}
+.description, .aside {
+    text-align: justify;
+}
+h2, h3 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/*footer*/
+.footer-content {
+    background-color: #210934;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-text {
+    letter-spacing: 0.5em;
+}
+
+
+/*slider*/
+.d-block {
+    height: 853px;
+}
+
