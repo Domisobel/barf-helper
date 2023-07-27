@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#">
+    <title>Barf helper</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-top">
+            <div class="left-side">
+                <a class="link-main" href="index.html">
+                    <h1>Barf Helper</h1>
+                </a>
+                <img class="logo" src="images/logo.png" alt="">
+            </div>
+            <div class="right-side">
+                <a href="https://www.linkedin.com/in/dominika-migus-793371251/"><img class="social-media"
+                        src="images/linkedin.png" alt=""></a>
+                <a href="https://www.instagram.com/isobelmadois6/"><img class="social-media" src="images/instagram.png"
+                        alt=""></a>
+                <a href="https://www.facebook.com/"><img class="social-media" src="images/facebook.png" alt=""></a>
+            </div>
+        </div>
+        <nav>
+            <div class="menu">
+                <a class="link-nav" href="kalkulatory.html">
+                    <li>Kalkulatory</li>
+                </a>
+                <a class="link-nav" href="zasady.html">
+                    <li>Zasady</li>
+                </a>
+                <a class="link-nav" href="suplementy.html">
+                    <li>Suplementy</li>
+                </a>
+                <a class="link-nav" href="polecani.html">
+                    <li>Polecani dietetycy</li>
+                </a>
+                <a class="link-nav" href="generowanie.html">
+                    <li>Generowanie przepisu</li>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="calcs">
+            <div class="c-carbonate">
+                <p class="direct-title">Dawkowanie wapnia</p>
+                <div class="btns-top">
+                    <button class="btn-hint">Wskazówka</button>
+                    <p>Masa mięsa w gramach <input class="meat-weight" type="text"><br>
+                    <span class="error-meat-weight"></span>
+                    </p>
+                    <p>Dawkowanie z opakowania <input class="calcium-weight" type="text"><br>
+                    <span class="error-calcium-weight"></span>
+                    </p>
+                </div>
+                <div class="btns-bottom">
+                    <button class="btn-count">Oblicz</button>
+                    <p class="cal-result"></p>
+                    <button class="btn-clear">Wyczyść</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p class="footer-text">Dominika Migus projekt 2023</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>

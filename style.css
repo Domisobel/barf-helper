@@ -3,6 +3,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family:  'Lucida Sans Unicode', sans-serif;
+    min-height: 100vh;
 }
 
 .link-main, .link-nav {
@@ -68,6 +69,10 @@ h2, h3 {
 }
 
 /*footer*/ 
+footer {
+    position: sticky;
+    top: 100%;
+}
 .footer-content {
     background-color: #210934;
     height: 75px;
@@ -84,4 +89,75 @@ h2, h3 {
 .d-block {
     height: 853px;
 }
+/*kalkulatory-main*/
+.calcs {
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+/*weglan wapnia*/
+.calcium-title {
+    align-self: center;
+    margin-bottom: 50px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.c-carbonate {
+    border: 3px solid #210934;
+    border-radius: 10px;
+    height: 320px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.direct-title {
+    background-color: #210934;
+    color: #FFFFFF;
+    height: 35px;
+    width: 600px;
+    text-align: center;
+    padding: 5px;
+}
+
+.btn-hint, .btn-count, .btn-clear {
+    background-color: #210934;
+    color: #FFFFFF;
+    border-color: #210934;
+    width: 130px;
+    height: 35px; 
+    border-radius: 5px; 
+}
+.btn-hint {
+    margin-bottom: 20px;
+}
+
+.btns-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+    
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 60px;
+    /* marginy na chwile*/
+}
+.btns-top {
+    margin: 0 20px;
+}
+.cal-result {
+    align-self: center;
+}
+.error-meat-weight, .error-calcium-weight {
+    color: rgb(251, 7, 7);
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
 
